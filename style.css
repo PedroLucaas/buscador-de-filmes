@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Timmana&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Timmana', sans-serif;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background: #143d59;
+  text-align: center;
+}
+
+#title-text{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #f4b41a;
+  margin: 5vh 0 25vh 0;
+}
+
+#text{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+#title{
+  margin: 0 0 0 20px;
+  width: 30%;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid #f4b41a;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 150%;
+  color: #ffff;
+}
+
+#title:focus {
+  outline: none;
+  background: none;
+}
+
+
+#input {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 0.6em;
+  cursor: pointer;
+  margin: 8vh 20px 20px 20px;
+  padding: 1.2em 2.8em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+#input:hover, #input:focus {
+  color: #fff;
+  outline: 0;
+}
+
+
+#input {
+  border-color: #f4b41a;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #f4b41a inset, 0 0 0 0 #f4b41a;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+#input:hover {
+  box-shadow: 0 0 10px 0 #f4b41a inset, 0 0 10px 4px #f4b41a;
+}
+
