@@ -18,4 +18,4 @@ const getMovies = async (path) => {
   }
 };
 
-console.log(getMovies(films[0].path));
+console.log(getMovies(films[0].path)); // eslint-disable-line no-console
