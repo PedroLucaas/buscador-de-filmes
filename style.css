@@ -2,6 +2,7 @@
 *{
   margin: 0;
   box-sizing: border-box;
+
   font-family: 'Timmana', sans-serif;
 }
 
@@ -73,5 +74,18 @@ body{
 }
 #input:hover {
   box-shadow: 0 0 10px 0 #f4b41a inset, 0 0 10px 4px #f4b41a;
+}
+
+#myList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  border-radius: 5%;
+  padding: 5px;
 }
 
